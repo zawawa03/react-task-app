@@ -38,7 +38,7 @@ export default function TaskDetail({ task }: Props) {
         更新日 : {new Date(task.updatedAt).toLocaleString()}
       </p>
       <div className={styles.links}>
-        <Link to={`/task/${task.id}/edit`} className={styles.editLink}>
+        <Link to={`/tasks/${task.id}/edit`} className={styles.editLink}>
           編集する
         </Link>
         <Link to="/tasks" className={styles.backLink}>

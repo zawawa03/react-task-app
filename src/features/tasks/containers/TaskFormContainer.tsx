@@ -6,7 +6,7 @@ import { createTask } from "../hooks/createTask";
 import styles from "../styles/taskForm.module.css";
 import type { Priority, TaskFormData } from "../../../types/task";
 
-export default function TaskFormContaiber() {
+export default function TaskFormContainer() {
   const [formData, setFormData] = useState<TaskFormData>({
     title: "",
     description: "",
